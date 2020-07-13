@@ -1,0 +1,40 @@
+.rel_posts {
+    border-top: 1px dotted gray;
+    padding-top: 20px;
+  }
+  .rel_posts:after {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    clear: both;
+  }
+  .rel_posts ul {
+    width: 100%;
+  }
+  .rel_posts ul li {
+    list-style: none;
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+  }
+  .rel_posts ul li .title_rel {
+    display: block;
+    padding: 4px;
+  }
+  .thumb_rel img{
+      width:150px;
+      height:150px;
+  }
+  @media only screen and (max-width: 600px) {
+    .rel_posts ul li {
+      width: 40%;
+      margin-left: 15px;
+      margin-bottom: 15px;
+        border-radius: 25px;
+    }
+    .rel_posts ul li:nth-child(odd) {
+      clear: both;
+    }
+  }
+  
